@@ -1,10 +1,10 @@
 # random-report-template
 
-- tsvから$\rm\LaTeX$の表をコマンドひとつで生成できる
-- tsvから($\rm\LaTeX$の)図をコマンドひとつで生成できる
+- tsvからLaTeXの表をコマンドひとつで生成できる
+- tsvから(.texファイルの)図をコマンドひとつで生成できる
 
 ## requirements
-- $\rm\LaTeX$
+- LaTeX
 - Python
 - pandas (python)
 - gnuplot
