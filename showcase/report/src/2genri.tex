@@ -1,0 +1,15 @@
+% Point: 用いた物理的原理を数式を交えて書く
+(中略)
+
+\subsection*{便利Packageの紹介}
+\subsubsection{\texttt{siunitx}}
+\texttt{siunitx}を使うことで，手間を減らせます．
+例えば，\verb|\SI{1}{m}, \SI{5}{\celsius}, \SI{10}{kg.m.s^{-2}}|が\SI{1}{m}, \SI{5}{\celsius}, \SI{10}{kg.m.s^{-2}}のようになります．
+
+\subsubsection{\texttt{Physics} package}
+\texttt{physics} package\footnote{参照: \url{https://mirrors.ibiblio.org/CTAN/macros/latex/contrib/physics/physics.pdf}}を使うことで，簡潔な表現ができる場合があります．例えば,
+\verb|\frac{\mathrm{d}}{\mathrm{d}x}|は\verb|\dv{x}|と同等な結果をもたらします．
+\verb|\dv{x}f = \dv{f}{x}|は次のように表示されます．
+\begin{align*}
+  \dv{x}f = \dv{f}{x}
+\end{align*}

@@ -1,0 +1,15 @@
+次のようなcsvファイルを考えることにします（これはランダムなデータで実際の実験とは関係がないです）．
+\lstinputlisting{src/data/e_showcase.csv}
+\verb|src/data/make_table.py|を実行することにより，次の\reftab{tab:py_generals}を得ます．これはコマンドラインで\verb|make table.o|とすることでも生成できます．
+\input{src/data/latex_e_showcase.csv.tex}
+生成された.texファイルは，\verb|\input{src/data/latex_e_showcase.csv.tex}|とすることで本文中に取り込めます．
+
+
+同一のcsvファイルからgnuplotを用いてグラフを生成することもできます．グラフは\verb|make table.o|とするか，\verb|src/data|へと行き，gnuplotのファイルを実行することで得られます．
+\begin{figure}[H]\centering
+  \input{src/data/showcase.tex}
+  \caption{Showcase of gnuplot}
+  \label{fig:goes_brrrrrrrrr}
+\end{figure}
+生成された.texファイルは，figure environmentで囲った上で\verb|\input|することで本文中に取り込めます．
+
