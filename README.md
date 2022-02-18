@@ -1,4 +1,5 @@
 # random-report-template
+repo: https://github.com/rand-tech/random-report-template
 
 - tsvからLaTeXの表をコマンドひとつで生成できる
 - tsvから(.texファイルの)図をコマンドひとつで生成できる
