@@ -1,6 +1,6 @@
 # random-report-template
-repo: https://github.com/rand-tech/random-report-template
 [README (日本語)](README.ja.md)
+repo: https://github.com/rand-tech/random-report-template
 
 - Generates LaTeX tables from tsv
 - Generates graphs (.tex) from tsv using gnuplot
