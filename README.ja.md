@@ -1,5 +1,5 @@
 # random-report-template
-[README (English)](README.md) | 解説記事: [怠けるLaTeX (pandasとgnuplot)](https://zenn.dev/rand0m/articles/the-lazy-latex) |
+[README (English)](README.md) | 解説記事: [怠けるLaTeX (pandasとgnuplot)](https://zenn.dev/rand0m/articles/the-lazy-latex) |  
 repo: https://github.com/rand-tech/random-report-template
 
 - tsvからLaTeXの表をコマンドひとつで生成できる
