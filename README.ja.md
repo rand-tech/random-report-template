@@ -1,9 +1,10 @@
 # random-report-template
 repo: https://github.com/rand-tech/random-report-template
-[README (日本語)](README.ja.md)
+[README (English)](README.md)
 
-- Generates LaTeX tables from tsv
-- Generates graphs (.tex) from tsv using gnuplot
+
+- tsvからLaTeXの表をコマンドひとつで生成できる
+- tsvから(.texファイルの)図をコマンドひとつで生成できる
 
 ## requirements
 - LaTeX
@@ -11,20 +12,17 @@ repo: https://github.com/rand-tech/random-report-template
 - pandas (python)
 - gnuplot
 
-## How to use it
-For detailed instructions, see `showcase/report/Final/lazy-LaTeX.pdf` (Japanese).
-- `make figure.o`: generates graphs from tsv files
-- `make table.o`: generates tables from tsv files
+## 使い方
+詳しくは`showcase/report/final/lazy-LaTeX.pdf`を参照
 
 ```mermaid
 flowchart LR
    gs(Google Spreadsheet) -- clipboard --> tsv(tsv file) -- make table.o --> table
-   tsv -- make figure.o --> graphs
+   tsv -- make figure.o --> plotした図
 ```
+(tsvファイルとして読み込むのはGoogle Spreadsheetsをコピーする際にtsvとして保存されるから)
 
-(I use tsv files because tables I copy from Google Spreadsheets will be stored as tsv files.)
-
-## Directory overview
+## ディレクトリ構成
 ```
 ❯ tree
 .
